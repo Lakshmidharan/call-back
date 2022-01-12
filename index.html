@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Back</title>
+</head>
+
+<body>
+    <script>
+
+        var num = document.createElement("div")
+        num.style.fontFamily = "Cursive";
+        num.style.textAlign = "center";
+        num.style.fontSize = "100px";
+        num.style.padding = "200px";
+        var r = Math.floor(Math.random() * 255);
+        var g = Math.floor(Math.random() * 255);
+        var b = Math.floor(Math.random() * 255);
+        num.style.color = 'rgb(' + r + ',' + g + ',' + b + ')';
+
+        setTimeout(function () {
+            num.innerText = "10"
+        }, 1000)
+
+        setTimeout(function () {
+            num.innerText = "9"
+        }, 2000)
+
+        setTimeout(function () {
+            num.innerText = "8"
+        }, 3000)
+
+        setTimeout(function () {
+            num.innerText = "7"
+        }, 4000)
+
+        setTimeout(function () {
+            num.innerText = "6"
+        }, 5000)
+
+        setTimeout(function () {
+            num.innerText = "5"
+        }, 6000)
+
+        setTimeout(function () {
+            num.innerText = "4"
+        }, 7000)
+
+        setTimeout(function () {
+            num.innerText = "3"
+        }, 8000)
+
+        setTimeout(function () {
+            num.innerText = "2"
+        }, 9000)
+
+        setTimeout(function () {
+            num.innerText = "1"
+        }, 10000)
+
+        setTimeout(function () {
+            num.innerText = "Hello EveryOne"
+        }, 11000)
+        document.body.appendChild(num)
+    </script>
+</body>
+
+</html>
